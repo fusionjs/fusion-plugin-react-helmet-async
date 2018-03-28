@@ -8,7 +8,7 @@ export default __NODE__ &&
   createPlugin({
     middleware: () => {
       return async (ctx, next) => {
-        if (__NODE__ && !ctx.element) {
+        if (!ctx.element) {
           return next();
         }
         const helmetContext = {};
