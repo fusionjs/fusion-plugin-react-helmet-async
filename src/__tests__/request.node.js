@@ -1,5 +1,4 @@
 import App from 'fusion-react';
-import React from 'react';
 import {getSimulator} from 'fusion-test-utils';
 import test from 'tape-cup';
 import HelmetPlugin from '../index.js';
