@@ -29,5 +29,3 @@ yarn add fusion-plugin-react-helmet-async
 #### Registration API
 
 #### Dependencies
-
-#### Service API
