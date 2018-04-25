@@ -15,7 +15,7 @@ test('Non render request', async t => {
 test('Render request with server side redirect', async t => {
   const app = new App('test', el => el);
   app.register(HelmetPlugin);
-  app.middleware((ctx, next) => {
+  app.middleware(ctx => {
     ctx.redirect('/test');
   });
   const sim = getSimulator(app);
