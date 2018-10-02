@@ -1635,7 +1635,7 @@ decode-uri-component@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
 
-deep-equal@^1.0.1, deep-equal@~1.0.1:
+deep-equal@~1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
 
@@ -1964,9 +1964,9 @@ eslint-plugin-import@^2.14.0:
     read-pkg-up "^2.0.0"
     resolve "^1.6.0"
 
-eslint-plugin-jest@^21.24.0:
-  version "21.24.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.24.0.tgz#4d194e1b6b4c8e5042de17399850ceddf82e25a1"
+eslint-plugin-jest@^21.24.1:
+  version "21.24.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.24.1.tgz#aaf3c34e816f07add83d1e9c20696fdc31fac8dc"
 
 eslint-plugin-prettier@3.0.0:
   version "3.0.0"
@@ -2349,9 +2349,9 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
 
-fusion-core@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/fusion-core/-/fusion-core-1.6.1.tgz#4ef8ddb91b5c2dcbb15c4d379974c66a267b0cd6"
+fusion-core@1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/fusion-core/-/fusion-core-1.7.0.tgz#69e206a8fd8cb798a36d447d0f230d1a6e65f85c"
   dependencies:
     koa "^2.4.1"
     koa-compose "^4.0.0"
@@ -2360,9 +2360,9 @@ fusion-core@1.6.1:
     ua-parser-js "^0.7.17"
     uuid "^3.2.1"
 
-fusion-react@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/fusion-react/-/fusion-react-1.2.2.tgz#51570a407c1c92eccf43c14ced331e3e7d71cb2f"
+fusion-react@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/fusion-react/-/fusion-react-1.3.0.tgz#5be3a32f82d71b2323d3c074d43a8beac0a9ca94"
   dependencies:
     prop-types "^15.6.2"
     react-is "^16.4.2"
@@ -4069,13 +4069,17 @@ react-dom@^16.5.2:
     prop-types "^15.6.2"
     schedule "^0.5.0"
 
-react-helmet-async@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/react-helmet-async/-/react-helmet-async-0.1.0.tgz#d5fa350b74cf8b690c401dfe74d55ffd9fdd9119"
+react-fast-compare@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.2.tgz#0560ba7a61a1662d9cea8cd97a0d9db7591bab1c"
+
+react-helmet-async@^0.2.0-beta.1:
+  version "0.2.0-beta.1"
+  resolved "https://registry.yarnpkg.com/react-helmet-async/-/react-helmet-async-0.2.0-beta.1.tgz#4434d0af043136db110a83bac026bed1fa3ab0bd"
   dependencies:
-    deep-equal "^1.0.1"
     invariant "^2.2.4"
     prop-types "^15.6.1"
+    react-fast-compare "^2.0.2"
     shallowequal "^1.0.2"
 
 react-is@^16.4.2:
